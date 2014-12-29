@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>SVG 矩形</title>
+    <link rel="stylesheet" href="../css/uikit.css">
+    <script src="http://libs.baidu.com/jquery/2.0.3/jquery.min.js"></script>
+    <script src="../js/uikit.min.js"></script>
+    <style>
+    .mt20 {
+        margin-top: 20px;
+    }
+    .ti2em {
+        text-indent: 2em;
+    }
+    .lh24 {
+        line-height: 24px;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <nav class="uk-navbar">
+            <div class="uk-container uk-container-center">
+                <ul class="uk-navbar-nav uk-nav-parent-icon">
+                    <li><a href="../index.html">Zer0</a>
+                    </li>
+                    <li class="uk-parent" data-uk-dropdown="">
+                        <a>前端</a>
+                        <div class="uk-dropdown uk-dropdown-navbar">
+                            <ul class="uk-nav uk-nav-navbar">
+                                <li class="uk-nav-header">CSS 3</a>
+                                </li>
+                                <li><a href="#">选择器<code class="uk-text-muted uk-float-right">2</code></a>
+                                </li>
+                                <li><a href="#">边框、文本<code class="uk-text-muted uk-float-right">2</code></a>
+                                </li>
+                                <li><a href="#">盒模型、布局<code class="uk-text-muted uk-float-right">2</code></a>
+                                </li>
+                                <li><a href="#">变形、动画<code class="uk-text-muted uk-float-right">2</code></a>
+                                </li>
+                                <li><a href="#">渐变<code class="uk-text-muted uk-float-right">2</code></a>
+                                </li>
+                                <li class="uk-nav-divider"></li>
+                                <li class="uk-nav-header">HTML 5</a>
+                                </li>
+                                <li><a href="#">新增元素<code class="uk-text-muted uk-float-right">2</code></a>
+                                </li>
+                                <li><a href="#">图形特性<code class="uk-text-muted uk-float-right">2</code></a>
+                                </li>
+                                <li><a href="#">媒体特性<code class="uk-text-muted uk-float-right">2</code></a>
+                                </li>
+                                <li><a href="#">本地存储<code class="uk-text-muted uk-float-right">2</code></a>
+                                </li>
+                                <li><a href="#">WebSockets<code class="uk-text-muted uk-float-right">2</code></a>
+                                </li>
+                                <li class="uk-nav-divider"></li>
+                                <li><a href="#">其他<code class="uk-text-muted uk-float-right">2</code></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="uk-parent" data-uk-dropdown="">
+                        <a>数据可视化</a>
+                        <div class="uk-dropdown uk-dropdown-navbar">
+                            <ul class="uk-nav uk-nav-navbar">
+                                <li class="uk-nav-header">学习笔记</li>
+                                <li><a href="list_1.html">SVG<code class="uk-text-muted uk-float-right">2</code></a>
+                                </li>
+                                <li class="uk-nav-divider"></li>
+                                <li class="uk-nav-header">图表库</li>
+                                <li><a href="list_1.html">D3.js<code class="uk-text-muted uk-float-right">1</code></a></a>
+                                </li>
+                                <li><a href="">Echarts<code class="uk-text-muted uk-float-right">0</code></a></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="uk-parent" data-uk-dropdown="">
+                        <a>后端</a>
+                        <div class="uk-dropdown uk-dropdown-navbar">
+                            <ul class="uk-nav uk-nav-navbar">
+                                <li class="uk-nav-header">编程语言</li>
+                                <li><a href="#">NodeJS<code class="uk-text-muted uk-float-right">2</code></a>
+                                </li>
+                                <li><a href="#">Go<code class="uk-text-muted uk-float-right">2</code></a>
+                                </li>
+                                <li class="uk-nav-divider"></li>
+                                <li class="uk-nav-header">数据库编程</li>
+                                <li><a href="#">MySQL<code class="uk-text-muted uk-float-right">2</code></a>
+                                </li>
+                                <li><a href="#">NoSQL<code class="uk-text-muted uk-float-right">2</code></a>
+                                </li>
+                                <li class="uk-nav-divider"></li>
+                                <li class="uk-nav-header">服务器编程</li>
+                                <li><a href="#">Linux<code class="uk-text-muted uk-float-right">2</code></a>
+                                </li>
+                                <li><a href="#">Mac OS X<code class="uk-text-muted uk-float-right">2</code></a>
+                                </li>
+                                <li><a href="#">Windows<code class="uk-text-muted uk-float-right">2</code></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="">导航</a>
+                    </li>
+                </ul>
+                <div class="uk-navbar-flip">
+                    <ul class="uk-navbar-nav">
+                        <li><a href="https://github.com/js-zer0">github</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="content">
+        <div class="uk-container uk-container-center">
+            <div class="uk-grid">
+                <div class="uk-width-8-10">
+                    <!-- 面包屑 -->
+                    <div class="breadcrumb mt20">
+                        <ul class="uk-breadcrumb">
+                            <li><a href="../index.html">首页</a>
+                            </li>
+                            <li><span>数据库可视化</span>
+                            </li>
+                            <li><span>SVG</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- 文章列表 -->
+                    <article class="uk-article">
+                        <h1 class="uk-article-title">SVG 系列【二】</h1>
+                        <p class="uk-article-meta">2014-12-25 / Zer0 / 转载请注明出处：<a href="svg_2.html" onmouseover="this.innerHTML = this.href;">文章地址</a>
+                        </p>
+                        <p class="uk-article-lead">SVG 矩形</p>
+                        <p class="uk-text-justify lh24">
+                            <h4 style="height: 40px;line-height: 40px;font-weight: bold;background-color:#eee;"><i class="uk-icon-align-left"></i> SVG 预定义形状</h4>
+                            <ul class="uk-list lh24">
+                                <li><i class="uk-icon-hand-o-right"></i> 矩形 &lt;rect&gt; </li>
+                                <li><i class="uk-icon-hand-o-right"></i> 圆形 &lt;circle&gt;</li>
+                                <li><i class="uk-icon-hand-o-right"></i> 椭圆 &lt;ellipse&gt;</li>
+                                <li><i class="uk-icon-hand-o-right"></i> 线 &lt;line&gt;</li>
+                                <li><i class="uk-icon-hand-o-right"></i> 折线 &lt;polyline&gt;</li>
+                                <li><i class="uk-icon-hand-o-right"></i> 多边形 &lt;polygon&gt;</li>
+                                <li><i class="uk-icon-hand-o-right"></i> 路径 &lt;path&gt;</li>
+                            </ul>
+                            <h4 style="height: 40px;line-height: 40px;font-weight: bold;background-color:#eee;"><i class="uk-icon-align-left"></i> SVG 矩形 &lt;rect&gt;</h4>
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+                                    <rect width="300" height="100" style="fill: pink; stroke: #000; stroke-width: 1;"></rect>
+                                </svg>
+                            </div>
+                            <h4 style="height: 40px;line-height: 40px;font-weight: bold;background-color:#eee;"><i class="uk-icon-align-left"></i> SVG 矩形属性</h4>
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <rect x="50" y="20" rx="20" ry="20" width="150" height="150" style="fill:blue;fill-opacity:0.3;stroke:pink;stroke-width:5;;stroke-opacity:0.9;"/>
+</svg>
+                            </div>
+                        </p>
+                    </article>
+                </div>
+                <!-- 快速导航 -->
+                <div class="uk-width-2-10">
+                    <h4 class="mt20">快速导航</h4>
+                    <ul class="uk-list">
+                        <li><a href="list_1.html">数据库可视化 - D3.js</a>
+                        </li>
+                        <li><a href="">前端 - SVG</a>
+                        </li>
+                        <li><a href="">CSS 3 - 选择器</a>
+                        </li>
+                        <li><a href="">CSS 3 - 文本、边框</a>
+                        </li>
+                        <li>CSS 3 - 布局</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer"></div>
+</body>
+
+</html>
