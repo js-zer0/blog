@@ -28,4 +28,4 @@
 - CSS 属性 stroke-opacity 定义边框颜色的透明度（0 - 1）
 
 ##### 效果
-![image](https://github.com/js-zer0/blog/blob/gh-pages/svg/svg_rect.png)
+![image](http://www.uis.cc/uploadfile/2014/1115/20141115094855464.jpg)
