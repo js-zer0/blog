@@ -1,11 +1,9 @@
 Zer0 in GitHub - Blog
 ===============================
 
-This is Zer0's BlOG.
+This is Zer0's Blog. Welcome anybody！
 
-Welcome anybody！
+Email : js_xer0@163.com
 
-email:js_xer0@163.com
-
-http://js-zer0.github.io/blog/
+Remember me : https://js-zer0.github.io/blog/
 
